@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose your Delivery Address</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h4>Choose Delivery Address</h4>
+      <div id="area1">
+        <select id="select1" onchange="checkit1()">
+          <option value="">select country</option>
+        </select>
+      </div>
+      <div id="area2">
+        <select id="select2" onchange="checkit2()">
+          <option value="">select province</option>
+        </select>
+      </div>
+      <div id="area3">
+        <select id="select3" onchange="checkit3()">
+          <option value="">select state</option>
+        </select>
+      </div>
+      <div id="area4">
+        <select id="select4" onchange="checkit4()">
+          <option value="">select city</option>
+        </select>
+      </div>
+    </div>
+    <script src="deliery.js"></script>
+  </body>
+</html>
